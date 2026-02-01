@@ -24,7 +24,7 @@
   </nav>
 </header>
 
-<!-- HERO -->
+<!-- acc -->
 <section id="home" class="pt-32 pb-20 bg-gray-800 text-center">
   <h2 class="text-4xl md:text-6xl font-bold text-white mb-4">
     Développeur Web
@@ -38,11 +38,15 @@
   </a>
 </section>
 
-<!-- ABOUT -->
+<!-- Apropos -->
 <section id="about" class="container mx-auto py-20 px-4">
   <h2 class="text-3xl font-bold text-center text-cyan-400 mb-10">
     À propos
   </h2>
+    <div class="flex justify-center">
+      <img src="image_projet_et_moi/logo.jpeg" alt="Abdou Wahab Koita"
+        class="w-60 h-60 object-cover rounded-full border-4 border-cyan-400 shadow-lg">
+    </div>
   <p class="max-w-3xl mx-auto text-center text-gray-300">
     Étudiant en génie informatique, spécialisé en développement web.
     J’aime créer des interfaces modernes, rapides et responsives.
@@ -83,19 +87,27 @@
 
 <!-- SKILLS -->
 <section id="skills" class="bg-gray-800 py-20">
-  <h2 class="text-3xl font-bold text-center text-cyan-400 mb-10">
+  <h2 class="text-3xl font-bold text-center text-cyan-400 mb-12">
     Compétences
   </h2>
-  <div class="container mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 px-4 text-center">
-    <span class="border border-cyan-400 text-cyan-400 py-3 rounded">HTM / CSSL</span>
-    <span class="border border-cyan-400 text-cyan-400 py-3 rounded">Tailwind</span>
-    <span class="border border-cyan-400 text-cyan-400 py-3 rounded">JavaScript</span>
-    <span class="border border-cyan-400 text-cyan-400 py-3 rounded">Git & GitHub</span>
+
+  <div class="max-w-5xl mx-auto px-4">
+    <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 place-items-center">
+
+      <img src="icone_image/html-five.svg" alt="HTML" class="h-16 hover:scale-110 transition">
+      <img src="icone_image/css-svgrepo-com.svg" alt="CSS" class="h-16 hover:scale-110 transition">
+      <img src="icone_image/tailwind.svg" alt="Tailwind" class="h-16 hover:scale-110 transition">
+      <img src="icone_image/javascript.svg" alt="JavaScript" class="h-16 hover:scale-110 transition">
+      <img src="icone_image/github.svg" alt="Git" class="h-16 hover:scale-110 transition">
+      <img src="icone_image/java.svg" alt="Java" class="h-16 hover:scale-110 transition">
+
+    </div>
   </div>
 </section>
 
+
 <!-- PROJECTS -->
-<section id="projects" class="container mx-auto py-20 px-4">
+<section id="projects" class="container  mx-auto py-20 px-4">
   <h2 class="text-3xl font-bold text-center text-cyan-400 mb-10">
     Projets
   </h2>
@@ -103,60 +115,79 @@
   <div class="grid md:grid-cols-3 gap-6">
 
     <!-- Projet 1 -->
-    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
-      <img src="immo.png" alt="Site Immobilier"
+     <a href="">
+        <div class="bg-gray-800 rounded-xl hover:bg-cyan-200 shadow">
+      <img src="image_projet_et_moi/immo.png" alt="Site Immobilier"
            class="w-full h-48 object-cover">
-      <div class="p-6">
+      <div class="p-4">
         <h3 class="font-bold text-xl text-cyan-400">Site Immobilier</h3>
         <p class="text-gray-300">HTML / CSS</p>
       </div>
     </div>
+     </a>
+    
 
     <!-- Projet 2 -->
-    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
-      <img src="login.png" alt="Login Page"
+     <a href="">
+        <div class="bg-gray-800 rounded-xl hover:bg-cyan-200 overflow-hidden shadow">
+      <img src="image_projet_et_moi/login.png" alt="Login Page"
            class="w-full h-48 object-cover">
-      <div class="p-6">
+      <div class="p-4">
         <h3 class="font-bold text-xl text-cyan-400">Login Page</h3>
         <p class="text-gray-300">HTML / CSS</p>
       </div>
     </div>
+     </a>
+    
 
     <!-- Projet 3 -->
-    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
-      <img src="miniCalc.png" alt="Calculatrice"
+     <a href="https://github.com/koitadimo12-oss/calculatriceSimple">
+      <div class="bg-gray-800 rounded-xl hover:bg-cyan-200 overflow-hidden shadow">
+      <img src="image_projet_et_moi/miniCalc.png" alt="Calculatrice"
            class="w-full h-48 object-cover">
-      <div class="p-6">
+      <div class="p-4">
         <h3 class="font-bold text-xl text-cyan-400">Mini Calculatrice</h3>
         <p class="text-gray-300">HTML / CSS / JS</p>
       </div>
     </div>
-    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
-      <img src="js.png" alt="Calculatrice"
+     </a>
+    <a href="">
+      <div class="bg-gray-800 rounded-xl hover:bg-cyan-200 overflow-hidden shadow">
+      <img src="image_projet_et_moi/js.png" alt="Jeux"
            class="w-full h-48 object-cover">
-      <div class="p-6">
+      <div class="p-4">
         <h3 class="font-bold text-xl text-cyan-400">Jeux</h3>
         <p class="text-gray-300">HTML / CSS / JS</p>
       </div>
     </div>
-    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
-      <img src="bank.png" alt=""
+    </a>
+    
+
+    <a href="">
+      <div class="bg-gray-800 rounded-xl hover:bg-cyan-200 overflow-hidden shadow">
+      <img src="image_projet_et_moi/bank.png" alt=""
            class="w-full h-48 object-cover">
-      <div class="p-6">
+      <div class="p-4">
         <h3 class="font-bold text-xl text-cyan-400">App-BAnk</h3>
         <p class="text-gray-300">JAVA</p>
       </div>
     </div>
-    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
-      <img src="election.png" alt=""
+    </a>
+    
+
+    <a href="">
+      <div class="bg-gray-800 rounded-xl hover:bg-cyan-200 shadow">
+        <img src="image_projet_et_moi/election.png" alt=""
            class="w-full h-48 object-cover">
-      <div class="p-6">
+      <div class="p-4">
         <h3 class="font-bold text-xl text-cyan-400">App_Election</h3>
         <p class="text-gray-300">C</p>
       </div>
     </div>
 
   </div>
+    </a>
+    
 </section>
 
 <!-- CONTACT -->
@@ -182,16 +213,17 @@
 </section>
 
 <!-- FOOTER -->
-<footer class="bg-black text-gray-400 text-center py-8 border-t border-cyan-400">
+<footer class="bg-white-400 text-gray-400 text-center py-8 border-t border-cyan-400">
   <p class="mb-3">© 2026 Abdou Wahab Koita</p>
   <a href=" koitadimo12@gmail.com"><p>Email : koitadimo12@gmail.com</p></a>
   <p class="mb-3">Tel : 77 526 41 07</p>
 
-  <div class="flex justify-center gap-6">
-    <a href="#"><img src="insta.webp" class="h-7 hover:scale-110 transition"></a>
-    <a href="#"><img src="OIP.webp" class="h-7 hover:scale-110 transition"></a>
-    <a href="#"><img src="Twitter-X.webp" class="h-7 hover:scale-110 transition"></a>
-    <a href="#"><img src="whatsapp-.webp" class="h-7 hover:scale-110 transition"></a>
+  <div class="flex justify-center  gap-6">
+    <a href="#"><img src="icone_image/linkedin.svg" class="h-10 hover:scale-110 transition"></a>
+    <a href="#"><img src="icone_image/x.com.svg" class="h-12  hover:scale-110 transition"></a>
+    <a href="#"><img src="icone_image/whatsapp.svg" class="h-10  hover:scale-110 transition"></a>
+    <a href="#"><img src="icone_image/instagram.svg" class="h-10  hover:scale-110 transition"></a>
+     <a href="#"><img src="icone_image/snapchat-color.svg" class="h-10  hover:scale-110 transition"></a>
   </div>
 </footer>
 
