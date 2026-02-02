@@ -17,13 +17,14 @@
       <li><a href="#home" class="hover:text-cyan-400">Accueil</a></li>
       <li><a href="#about" class="hover:text-cyan-400">À propos</a></li>
       <li><a href="#formation" class="hover:text-cyan-400">Formation</a></li>
+      <li><a href="#experience" class="hover:text-cyan-400">Expérience</a></li>
       <li><a href="#skills" class="hover:text-cyan-400">Compétences</a></li>
       <li><a href="#projects" class="hover:text-cyan-400">Projets</a></li>
       <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
     </ul>
   </nav>
 </header>
-
+<!-- je suis la branche 3 j ai pas merger les 2 branche avec master -->
 <!-- acc -->
 <section id="home" class="pt-32 pb-20 bg-gray-800 text-center">
   <h2 class="text-4xl md:text-6xl font-bold text-white mb-4">
@@ -38,45 +39,56 @@
   </a>
 </section>
 
-<!-- Apropos -->
+
+<!-- À propos -->
 <section id="about" class="container mx-auto py-20 px-4">
-  <h2 class="text-3xl font-bold text-center text-cyan-400 mb-10">
+  <h2 class="text-4xl md:text-5xl font-bold text-center text-cyan-400 mb-12">
     À propos
   </h2>
-    <div class="flex justify-center">
+  
+  <div class="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl mx-auto">
+    <!-- Image -->
+    <div class="flex-shrink-0">
       <img src="image_projet_et_moi/logo.jpeg" alt="Abdou Wahab Koita"
-        class="w-60 h-60 object-cover rounded-full border-4 border-cyan-400 shadow-lg">
+        class="w-72 h-72 md:w-80 md:h-80 object-cover rounded-full border-4 border-cyan-400 shadow-xl">
     </div>
-  <p class="max-w-3xl mx-auto text-center text-gray-300">
-    Étudiant en génie informatique, spécialisé en développement web.
-    J’aime créer des interfaces modernes, rapides et responsives.
-  </p>
+
+    <!-- Texte -->
+    <div class="text-center md:text-left text-gray-300 text-lg md:text-xl space-y-4">
+      <p>
+        Étudiant en génie informatique, spécialisé en développement web.
+      </p>
+      <p>
+        J’aime créer des interfaces modernes, rapides et responsives.
+      </p>
+    </div>
+  </div>
 </section>
+
 <!-- FORMATION -->
 <section id="formation" class="bg-gray-800 py-20">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold text-center text-cyan-400 mb-10">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-cyan-400 mb-10">
       Formation
     </h2>
 
-    <div class="max-w-3xl mx-auto space-y-6">
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-6 justify-center">
 
-      <div class="bg-gray-900 p-6 rounded-xl shadow">
-        <h3 class="text-xl font-semibold text-cyan-400">
+      <div class="bg-gray-900 p-4 md:p-6 rounded-xl shadow shadow hover:shadow-lg transform hover:-translate-y-1 transition flex-1 ">
+        <h3 class="text-xl font-semibold text-cyan-400 mb-2">
           Licence Géographie – UCAD
         </h3>
-        <p class="text-gray-300">Licence 1 : 2022 – 2023</p>
-        <p class="text-gray-300">Licence 2 : 2023 – 2024</p>
+        <p class="text-gray-300 text-sm md:text-base">Licence 1 : 2022 – 2023</p>
+        <p class="text-gray-300 text-sm md:text-base">Licence 2 : 2023 – 2024</p>
       </div>
 
-      <div class="bg-gray-900 p-6 rounded-xl shadow">
-        <h3 class="text-xl font-semibold text-cyan-400">
+      <div class="bg-gray-900 p-4 md:p-6 rounded-xl shadow shadow hover:shadow-lg transform hover:-translate-y-1 transition flex-1">
+        <h3 class="text-xl font-semibold text-cyan-400 mb-2">
           Licence en Génie Informatique – UNIPRO
         </h3>
-        <p class="text-gray-300">Licence 1 : 2024 – 2025</p>
-        <p class="text-gray-400 mt-2">
-           <p class="text-gray-300">Licence 2 : 2025 – 2026</p>
-        <p class="text-gray-400 mt-2">
+        <p class="text-gray-300 text-sm md:text-base">Licence 1 : 2024 – 2025</p>
+        <p class="text-gray-300 text-sm md:text-base">Licence 2 : 2025 – 2026</p>
+        <p class="text-gray-300 text-sm md:text-base mt-2">
           Développement web, programmation, réseaux informatiques
         </p>
       </div>
@@ -84,7 +96,42 @@
     </div>
   </div>
 </section>
-<!-- jai pas fai se commit et je suis sur la branche 3 -->
+        <section id="experience" class="bg-gray-900 py-20">
+  <div class="container mx-auto px-4">
+    <h2 class="text-3xl md:text-4xl font-bold text-center text-cyan-400 mb-10">
+      Expérience
+    </h2>
+
+   
+    <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-6 justify-center">
+
+      <!-- Expérience 1 -->
+      <div class="bg-gray-800 p-4 md:p-6 rounded-xl shadow hover:shadow-lg transform hover:-translate-y-1 transition flex-1">
+        <h3 class="text-xl font-semibold text-cyan-400 mb-2">
+          Stagiare
+        </h3>
+        <p class="text-gray-300 text-sm md:text-base"><a href="https://sn.africabz.com/dakar/tgi-entreprise-informatique-434313">A TGI (Tout En Geni Informatique), 2025</a></p>
+        <p class="text-gray-300 text-sm md:text-base mt-2">
+          Développement et maintenance de sites web, création d’interfaces modernes et responsives.
+        </p>
+      </div>
+
+      <!-- Expérience 2 -->
+      <div class="bg-gray-800 p-4 md:p-6 rounded-xl shadow hover:shadow-lg transform hover:-translate-y-1 transition flex-1">
+        <h3 class="text-xl font-semibold text-cyan-400 mb-2">
+          Freelence
+        </h3>
+        <p class="text-gray-300 text-sm md:text-base">Realisation de projet induviduel, 2025 – 2026</p>
+        <p class="text-gray-300 text-sm md:text-base mt-2">
+          Création d’interfaces web réactives, optimisation de l’expérience utilisateur.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- je suis la branche 3 j ai pas merger les 2 branche avec master -->
 <!-- SKILLS -->
 <section id="skills" class="bg-gray-800 py-20">
   <h2 class="text-3xl font-bold text-center text-cyan-400 mb-12">
@@ -118,7 +165,7 @@
     </div>
   </div>
 </section>
-
+<!-- je suis la branche 3 j ai pas merger les 2 branche avec master -->
 
 <!-- PROJECTS -->
 <section id="projects" class="container mx-auto py-20 px-4">
@@ -207,22 +254,22 @@
 
   </div>
 </section>
-
+<!-- je suis la branche 3 j ai pas merger les 2 branche avec master -->
 
 <!-- CONTACT -->
 <section id="contact" class="bg-gray-800 py-20 px-4">
-  <div class="max-w-md mx-auto bg-gray-900 p-8 rounded-2xl shadow">
+  <div class="max-w-md mx-auto  hover:scale-110 transition bg-gray-900 p-8 rounded-2xl shadow">
     <h2 class="text-2xl font-bold text-center text-cyan-400 mb-6">
       Contactez-moi
     </h2>
 
     <form id="contactForm" class="space-y-4">
       <input type="text" name="name" placeholder="Nom" required
-        class="w-full bg-gray-800 border border-gray-700 rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
+        class="w-full bg-gray-800 border border-gray-700  hover:scale-110 transition rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
       <input type="email" name="email" placeholder="Email" required
-        class="w-full bg-gray-800 border border-gray-700 rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
+        class="w-full bg-gray-800 border border-gray-700   hover:scale-110 transition rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
       <textarea name="message" rows="4" placeholder="Message" required
-        class="w-full bg-gray-800 border border-gray-700 rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none"></textarea>
+        class="w-full bg-gray-800 border border-gray-700 rounded  hover:scale-110 transition px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none"></textarea>
       <button type="submit"
         class="w-full bg-cyan-400 text-gray-900 font-semibold py-2 rounded hover:bg-cyan-500 transition">
         Envoyer
@@ -251,4 +298,5 @@
 <script src="form.js"></script>
 </body>
 </html>
+<!-- je suis la branche 3 j ai pas merger les 2 branche avec master -->
 
