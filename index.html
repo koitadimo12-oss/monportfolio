@@ -34,7 +34,7 @@
     Passionné par le web moderne
   </p>
   <a href="#projects"
-     class="bg-cyan-400 text-gray-900 px-6 py-3 rounded-full font-semibold hover:bg-cyan-500 transition">
+     class="bg-cyan-400 text-gray-900 px-6 py-3 rounded-4xl font-semibold hover:bg-cyan-500 transition">
     Voir mes projets
   </a>
 </section>
@@ -49,7 +49,7 @@
   <div class="flex flex-col md:flex-row items-center md:items-start gap-12 max-w-6xl mx-auto">
     <!-- Image -->
     <div class="flex-shrink-0">
-      <img src="image_projet_et_moi/logo.jpeg" alt="Abdou Wahab Koita"
+      <img src="image_projet_et_moi/moi.jpeg" alt="Abdou Wahab Koita"
         class="w-72 h-72 md:w-80 md:h-80 object-cover rounded-full border-4 border-cyan-400 shadow-xl">
     </div>
 
@@ -114,7 +114,7 @@
         <h3 class="text-xl font-semibold text-cyan-400 mb-2">
           Stagiare
         </h3>
-        <p class="text-gray-300 text-sm md:text-base"><a href="https://sn.africabz.com/dakar/tgi-entreprise-informatique-434313">A TGI (Tout En Geni Informatique), 2025</a></p>
+        <p class="text-gray-300 text-sm md:text-base"><a class="font-bold" href="https://sn.africabz.com/dakar/tgi-entreprise-informatique-434313">A TGI (Tout En Geni Informatique), 2025</a></p>
         <p class="text-gray-300 text-sm md:text-base mt-2">
           Développement et maintenance de sites web, création d’interfaces modernes et responsives.
         </p>
@@ -262,33 +262,56 @@
 
 <!-- CONTACT -->
 <section id="contact" class="bg-gray-800 py-20 px-4">
-  <div class="max-w-md mx-auto  hover:scale-110 transition bg-gray-900 p-8 rounded-2xl shadow">
-    <h2 class="text-2xl font-bold text-center text-cyan-400 mb-6">
-      Contactez-moi
-    </h2>
+  
+  <!-- CONTENEUR -->
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse -12 items-center">
 
-    <form id="contactForm" class="space-y-4">
-      <input type="text" name="name" placeholder="Nom" required
-        class="w-full bg-gray-800 border border-gray-700  hover:scale-110 transition rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
-      <input type="email" name="email" placeholder="Email" required
-        class="w-full bg-gray-800 border border-gray-700   hover:scale-110 transition rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
-      <textarea name="message" rows="4" placeholder="Message" required
-        class="w-full bg-gray-800 border border-gray-700 rounded  hover:scale-110 transition px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none"></textarea>
-      <button type="submit"
-        class="w-full bg-cyan-400 text-gray-900 font-semibold py-2 rounded hover:bg-cyan-500 transition">
-        Envoyer
-      </button>
-      <p id="successMessage" class="hidden text-green-400 text-center mt-2">
-        Merci, votre message a été envoyé !
+    <div class="md:w-1/2 text-gray-300 ml-9">
+      <h2 class="text-3xl font-bold text-cyan-400 mb-4">
+        Travaillons ensemble
+      </h2>
+      <p class="mb-4 ">
+       <p>Vous avez un projet, une idée ou une opportunité ?</p> 
+       <p>N’hésitez pas à me contacter via ce formulaire.</p> 
+        <p>Je suis disponible pour des missions freelance,
+        collaborations ou stages.</p> 
       </p>
-    </form>
+    </div>
+    <div class="md:w-1/2 w-full max-w-md bg-gray-900 p-8 rounded-2xl shadow hover:scale-105 transition">
+      
+      <h2 class="text-2xl font-bold text-center text-cyan-400 mb-6">
+        Contactez-moi
+      </h2>
+
+      <form id="contactForm" class="space-y-4">
+        <input type="text" name="name" placeholder="Nom" required
+          class="w-full bg-gray-800 border border-gray-700 rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
+
+        <input type="email" name="email" placeholder="Email" required
+          class="w-full bg-gray-800 border border-gray-700 rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none">
+
+        <textarea name="message" rows="4" placeholder="Message" required
+          class="w-full bg-gray-800 border border-gray-700 rounded px-4 py-2 focus:ring-2 focus:ring-cyan-400 outline-none"></textarea>
+
+        <button type="submit"
+          class="w-full bg-cyan-400 text-gray-900 font-semibold py-2 rounded hover:bg-cyan-500 transition">
+          Envoyer
+        </button>
+
+        <p id="successMessage" class="hidden text-green-400 text-center mt-2">
+          Merci, votre message a été envoyé !
+        </p>
+      </form>
+    </div>
+
   </div>
 </section>
+
 
 <!-- FOOTER -->
 <footer class="bg-white-400 text-gray-400 text-center py-8 border-t border-cyan-400">
   <p class="mb-3">© 2026 Abdou Wahab Koita</p>
-  <a href=" koitadimo12@gmail.com"><p>Email : koitadimo12@gmail.com</p></a>
+  <a href=" koitadimo12@gmail.com" target="_blank"><p>Email : koitadimo12@gmail.com</p></a>
   <p class="mb-3">Tel : 77 526 41 07</p>
   <p class="mb-2">Rejoignez moi sur</p>
 
