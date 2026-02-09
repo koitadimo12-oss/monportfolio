@@ -14,32 +14,32 @@
   <nav class="container mx-auto flex justify-between items-center p-4">
     <h1 class="text-xl font-bold text-cyan-400">Abdou Wahab Koita</h1>
     <ul class="hidden md:flex space-x-6">
-      <li><a href="#home" class="hover:text-cyan-400">Accueil</a></li>
-      <li><a href="#about" class="hover:text-cyan-400">À propos</a></li>
+      <li><a href="#acceuil" class="hover:text-cyan-400">Accueil</a></li>
+      <li><a href="#apropos" class="hover:text-cyan-400">À propos</a></li>
       <li><a href="#formation" class="hover:text-cyan-400">Formation</a></li>
       <li><a href="#experience" class="hover:text-cyan-400">Expérience</a></li>
-      <li><a href="#skills" class="hover:text-cyan-400">Compétences</a></li>
-      <li><a href="#projects" class="hover:text-cyan-400">Projets</a></li>
+      <li><a href="#competences" class="hover:text-cyan-400">Compétences</a></li>
+      <li><a href="#projets" class="hover:text-cyan-400">Projets</a></li>
       <li><a href="#contact" class="hover:text-cyan-400">Contact</a></li>
     </ul>
   </nav>
 </header>
 <!-- acc -->
-<section id="home" class="pt-32 pb-20 bg-gray-800 text-center">
+<section id="acceuil" class="pt-32 pb-20 bg-gray-800 text-center">
   <h2 class="text-4xl md:text-6xl font-bold text-white mb-4">
     Développeur Web
   </h2>
   <p class="text-gray-300 mb-6">
     Passionné par le web moderne
   </p>
-  <a href="#projects"
+  <a href="#projets"
      class="bg-cyan-400 text-gray-900 px-6 py-3 rounded-4xl font-semibold hover:bg-cyan-500 transition">
     Voir mes projets
   </a>
   
 </section>
 <!-- À propos -->
-<section id="about" class="container mx-auto py-20 px-4">
+<section id="apropos" class="container mx-auto py-20 px-4">
   <h2 class="text-4xl md:text-5xl font-bold text-center text-cyan-400 mb-12">
     À propos
   </h2>
@@ -62,13 +62,13 @@
       <div>
       <p>Etudiant avec peut d'experience pour l'instant evoluant dans le domaine de l'informatique a <a href="https://www.sencampus.com/etablissement/unipro-dakar/"><p class="font-bold">univers profesionel (UNIPRO)</p></a></p>
     </div>
-    <div class="mt-6">
-  <a href="mon_cv/cv_Abdou_w_koita.pdf" download
-     class="inline-block border border-cyan-400 text-cyan-400 px-6 py-3 rounded-full font-semibold
-            hover:bg-cyan-400 hover:text-gray-900 transition">
-    📄 Télécharger mon CV
-  </a>
-</div>
+     <div class="mt-12 flex justify-start">
+        <a href="mon_cv/cv_Abdou_w_koita.pdf" download
+           class="inline-block border border-cyan-400 text-cyan-400 px-6 py-3 rounded-full font-semibold
+                  hover:bg-cyan-400 hover:text-gray-900 transition">
+          📄 Télécharger mon CV
+        </a>
+      </div>
 
   </div>
 </section>
@@ -137,7 +137,7 @@
   </div>
 </section>
 <!-- Competences -->
-<section id="skills" class="bg-gray-800 py-20">
+<section id="competences" class="bg-gray-800 py-20">
   <h2 class="text-3xl font-bold text-center text-cyan-400 mb-12">
     Compétences
   </h2>
@@ -169,93 +169,122 @@
     </div>
   </div>
 </section>
-<!-- PROJECTS -->
-<section id="projects" class="container mx-auto py-20 px-4">
+
+<section id="projets" class="container mx-auto py-20 px-4">
   <h2 class="text-3xl font-bold text-center text-cyan-400 mb-10">
     Projets
   </h2>
 
   <div class="grid gap-6 sm:grid-cols-2 md:grid-cols-3">
 
-    <!--  projet -->
-    <a href="https://github.com/koitadimo12-oss/immo/commit/42f33224bb500b002bfc3428c7f928611b649b04"
-       class="block">
-      <div class="bg-gray-800 rounded-xl overflow-hidden shadow 
-                  transition hover:bg-cyan-200">
-        <img src="image_projet_et_moi/immo.png"
-             alt="Site Immobilier"
-             class="w-full h-48 object-cover 
-                    transition-transform duration-300 hover:scale-110">
-        <div class="p-4">
-          <h3 class="font-bold text-xl text-cyan-400">Site Immobilier</h3>
-          <p class="text-gray-300">HTML / CSS</p>
+    <!-- IMMOBILIER -->
+    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
+      <img src="image_projet_et_moi/immo.png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-xl text-cyan-400">Site Immobilier</h3>
+        <p class="text-gray-300 mb-4">HTML / CSS</p>
+        <div class="flex gap-3">
+          <a href="projets/luxe house/lux.html" target="_blank"
+             class="flex-1 text-center bg-cyan-400 text-gray-900 py-2 rounded font-semibold">
+            🌐 Voir le site
+          </a>
+          <a href="https://github.com/koitadimo12-oss/immo" target="_blank"
+             class="flex-1 text-center border border-cyan-400 text-cyan-400 py-2 rounded font-semibold">
+            💻 Dépôt
+          </a>
         </div>
       </div>
-    </a>
+    </div>
 
-    <a href="https://github.com/koitadimo12-oss/loginPage/commit/30f98cbd84839128a4497eeed9f41064dc0c2ce4"
-       class="block">
-      <div class="bg-gray-800 rounded-xl overflow-hidden shadow transition hover:bg-cyan-200">
-        <img src="image_projet_et_moi/login.png"
-             alt="Login Page"
-             class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
-        <div class="p-4">
-          <h3 class="font-bold text-xl text-cyan-400">Login Page</h3>
-          <p class="text-gray-300">HTML / CSS</p>
+    <!-- LOGIN -->
+    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
+      <img src="image_projet_et_moi/login.png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-xl text-cyan-400">Login Page</h3>
+        <p class="text-gray-300 mb-4">HTML / CSS</p>
+        <div class="flex gap-3">
+          <a href="projets/login page/index.html" target="_blank"
+             class="flex-1 text-center bg-cyan-400 text-gray-900 py-2 rounded font-semibold">
+            🌐 Voir le site
+          </a>
+          <a href="https://github.com/koitadimo12-oss/loginPage" target="_blank"
+             class="flex-1 text-center border border-cyan-400 text-cyan-400 py-2 rounded font-semibold">
+            💻 Dépôt
+          </a>
         </div>
       </div>
-    </a>
+    </div>
 
-    <a href="https://github.com/koitadimo12-oss/calculatriceSimple" class="block">
-      <div class="bg-gray-800 rounded-xl overflow-hidden shadow transition hover:bg-cyan-200">
-        <img src="image_projet_et_moi/miniCalc.png"
-             alt="Calculatrice"
-             class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
-        <div class="p-4">
-          <h3 class="font-bold text-xl text-cyan-400">Mini Calculatrice</h3>
-          <p class="text-gray-300">HTML / CSS / JS</p>
+    <!-- MINI CALC -->
+    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
+      <img src="image_projet_et_moi/miniCalc.png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-xl text-cyan-400">Mini Calculatrice</h3>
+        <p class="text-gray-300 mb-4">HTML / CSS / JS</p>
+        <div class="flex gap-3">
+          <a href="projets/calculatrice_simple/index.html" target="_blank"
+             class="flex-1 text-center bg-cyan-400 text-gray-900 py-2 rounded font-semibold">
+            🌐 Voir le site
+          </a>
+          <a href="https://github.com/koitadimo12-oss/calculatriceSimple" target="_blank"
+             class="flex-1 text-center border border-cyan-400 text-cyan-400 py-2 rounded font-semibold">
+            💻 Dépôt
+          </a>
         </div>
       </div>
-    </a>
+    </div>
 
-    <a href="https://github.com/koitadimo12-oss/jeux_web" class="block">
-      <div class="bg-gray-800 rounded-xl overflow-hidden shadow transition hover:bg-cyan-200">
-        <img src="image_projet_et_moi/js.png"
-             alt="Jeux"
-             class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
-        <div class="p-4">
-          <h3 class="font-bold text-xl text-cyan-400">Jeux</h3>
-          <p class="text-gray-300">HTML / CSS / JS</p>
+    <!-- JEUX -->
+    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
+      <img src="image_projet_et_moi/js.png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-xl text-cyan-400">Jeux Web</h3>
+        <p class="text-gray-300 mb-4">HTML / CSS / JS</p>
+        <div class="flex gap-3">
+          <a href="projets/mini_jeux_web/index.html" target="_blank"
+             class="flex-1 text-center bg-cyan-400 text-gray-900 py-2 rounded font-semibold">
+            🌐 Voir le site
+          </a>
+          <a href="https://github.com/koitadimo12-oss/jeux_web" target="_blank"
+             class="flex-1 text-center border border-cyan-400 text-cyan-400 py-2 rounded font-semibold">
+            💻 Dépôt
+          </a>
         </div>
       </div>
-    </a>
+    </div>
 
-    <a href="https://github.com/koitadimo12-oss/javaBank/tree/master/projetJavaExam" class="block">
-      <div class="bg-gray-800 rounded-xl overflow-hidden shadow transition hover:bg-cyan-200">
-        <img src="image_projet_et_moi/bank.png"
-             alt="App Bank"
-             class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
-        <div class="p-4">
-          <h3 class="font-bold text-xl text-cyan-400">App-Bank</h3>
-          <p class="text-gray-300">JAVA</p>
-        </div>
+    <!-- APP BANK -->
+    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
+      <img src="image_projet_et_moi/bank.png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-xl text-cyan-400">App Bank</h3>
+        <p class="text-gray-300 mb-4">Java</p>
+        <a href="https://github.com/koitadimo12-oss/javaBank" target="_blank"
+           class="block text-center border border-cyan-400 text-cyan-400 py-2 rounded font-semibold">
+          💻 Voir le dépôt
+        </a>
       </div>
-    </a>
+    </div>
 
-    <a href="https://github.com/koitadimo12-oss/appElectiom" class="block">
-      <div class="bg-gray-800 rounded-xl overflow-hidden shadow transition hover:bg-cyan-200">
-        <img src="image_projet_et_moi/election.png"
-             alt="App Election"
-             class="w-full h-48 object-cover transition-transform duration-300 hover:scale-110">
-        <div class="p-4">
-          <h3 class="font-bold text-xl text-cyan-400">App Election</h3>
-          <p class="text-gray-300">C</p>
-        </div>
+    <!-- APP ELECTION -->
+    <div class="bg-gray-800 rounded-xl overflow-hidden shadow">
+      <img src="image_projet_et_moi/election.png" class="w-full h-48 object-cover">
+      <div class="p-4">
+        <h3 class="font-bold text-xl text-cyan-400">App Election</h3>
+        <p class="text-gray-300 mb-4">C</p>
+        <a href="https://github.com/koitadimo12-oss/appElectiom" target="_blank"
+           class="block text-center border border-cyan-400 text-cyan-400 py-2 rounded font-semibold">
+          💻 Voir le dépôt
+        </a>
       </div>
-    </a>
+    </div>
 
   </div>
 </section>
+
+
+</section>
+    
 <!-- CONTACT -->
 <section id="contact" class="bg-gray-800 py-20 px-4">
   <div class="max-w-6xl mx-auto flex flex-col md:flex-row-reverse -12 items-center">

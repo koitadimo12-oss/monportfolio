@@ -1,0 +1,210 @@
+body {
+    background-color: rgb(9, 7, 31);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffff;
+}
+
+#corp {
+    margin: auto;
+    width: 85%;
+}
+
+nav a,
+section h1,
+aside h1,
+footer h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+header {
+    background-color: #003366;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    box-shadow: 15px 20px 5px color(srgb rgb(218, 182, 182) green blue);
+}
+
+#entete {
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    display: flex;
+    flex-direction: row;
+}
+
+#logo img {
+    width: 200px;
+    height: 150px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #e6c3c3;
+}
+
+#banniere {
+    background: url("images/bn4.jpg");
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position: relative;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: 15px 20px 5px gray;
+}
+
+#slogan {
+    bottom: 0;
+    position: absolute;
+    color: blue;
+    font-size: 2em;
+    font-style: italic;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+
+section {
+    display: flex;
+    margin-bottom: 25px;
+    border-bottom: solid 5px rgb(161, 157, 157);
+}
+
+article {
+    margin-right: 30px;
+}
+
+article,
+aside {
+    text-align: justify;
+}
+
+aside {
+    position: relative;
+    background-color: #e0d1d1;
+    border-radius: 15px;
+    color: #041757;;
+    box-shadow: 15px 15px 5px rgb(176, 180, 176);
+    margin-bottom: 25px;
+
+}
+
+#unipro,
+
+aside h1 {
+    text-align: center;
+}
+
+#unipro img {
+    width: 100px;
+    height: 100px;
+}
+
+#rs img {
+    width: 30px;
+    height: 30px;
+}
+
+aside p {
+    padding: 15px;
+}
+
+footer {
+    display: flex;
+    background-color: #003366;
+    color: aliceblue;
+
+}
+
+#message {
+    width: 30%;
+}
+
+#foto {
+    width: 40%;
+}
+
+#sopnsor {
+    width: 30px;
+}
+
+footer h1 {
+    font-size: 1em;
+}
+
+#resau img {
+    width: 50px;
+    height: 50px;
+
+}
+.contact-form{
+    width: 50%;
+    border-radius: 10px;
+    margin: 70px auto; 
+    background-color:  #ff8c42;
+    padding: 50px;
+
+}
+.form h4{
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    line-height: 30px;
+    text-align: center;
+}
+.form p{
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.row-form{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.row-form input{
+    width: 48%;
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 3px;
+    border: none;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.row-class-form input,
+.row-class-form textarea{
+    width: 100%;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    margin-bottom: 20px;
+}
+
+table {
+    
+    position: relative;
+    top: 100px;
+    margin: auto;
+}
+table th{
+    color: #ff8c42;
+}
+tr:hover{
+    color: #041757;
+}
+
+#log img{
+    height: 350px;
+    
+}

@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(1, 1, 5);
+   
+    align-items: center;
+    margin-top: 2px;
+    
+}
+div{
+    
+    background-image: url("img/voiture.jpeg");
+    padding: 12px;
+    margin: 350px; 
+    width: 200px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow:12px color(white)
+    
+
+}
+input{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: rgb(73, 66, 66);
+    border: none;
+    gap: 5px;
+}
+.btn{
+    justify-content: center;
+    border-radius: 9px;
+    margin-left: 30px;
+    cursor: pointer ;
+    background-color: rgb(234, 236, 234);
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.btn:hover{
+    color: rgb(72, 71, 92);
+    background-color: rgb(22, 5, 24);
+}
+label{
+    gap: 5px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(90deg, #ff8a00, #e52e71, #f4f8fa);
+    background-size: 200%;
+    background-clip: text;
+    color: transparent;
+    animation: text-animation 2s infinite linear;
+  
+    
+}
+@keyframes text-animation{
+.0% {
+    background-position: 0%; 
+}
+.100%{
+    background-position: 200%;
+}
+}
+h2{
+    font-weight: normal;
+    font-size: 24px;
+  color: white;
+   margin-left: 50px;
+
+}
+a{
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+
+  color: rgb(18, 26, 44);
+   margin-left: 30px;
+   text-decoration: none;
+}
+nav{
+    margin-bottom: 1vh;
+    background-color: #d1bbc3;
+    padding: 12px;
+    border: #ff8a00;
+    border-radius: 12px;
+    margin-top: 12px;
+    display: flex;
+    text-align: center;
+}
+#A{
+    color: rgb(26, 25, 25);
+    justify-content: space-between;
+    margin-right: 12px;
+    padding: 1px;
+    padding-left: 19px;
+    padding-right: 19px;
+    background-color: #a74b6c;
+    border-radius: 12px;
+    margin-left: 100px;
+    gap: 100px;
+}
+#A:hover{
+    background-color: azure;
+}
+
+
